@@ -11,12 +11,12 @@ type NavProps = {
 
 const Nav = ({ isMenuOpen, setIsMenuOpen, activeSection }: NavProps) => {
   const { scrollYProgress } = useScroll();
-  const navBg = useTransform(scrollYProgress, [0, 0.05], ['rgba(240,247,255,0)', 'rgba(240,247,255,0.92)']);
+  const navBg = useTransform(scrollYProgress, [0, 0.05], ['rgba(255,221,225,0)', 'rgba(255,221,225,0.92)']);
 
   return (
     <motion.nav
       style={{ backgroundColor: navBg }}
-      className="fixed top-0 w-full z-50 backdrop-blur-xl border-b border-blue-200/60"
+      className="fixed top-0 w-full z-50 backdrop-blur-xl border-b border-[#F4B6BE]/60"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
         <div className="flex justify-end items-center">
@@ -26,7 +26,7 @@ const Nav = ({ isMenuOpen, setIsMenuOpen, activeSection }: NavProps) => {
                 key={item}
                 href={`#${item}`}
                 className={`nav-link px-3 lg:px-4 py-2 text-sm font-medium transition-colors capitalize ${
-                  activeSection === item ? 'text-blue-600 active' : 'text-slate-600 hover:text-slate-900'
+                  activeSection === item ? 'text-[#EE9CA7] active' : 'text-slate-600 hover:text-slate-900'
                 }`}
               >
                 {item}
@@ -52,7 +52,7 @@ const Nav = ({ isMenuOpen, setIsMenuOpen, activeSection }: NavProps) => {
               transition={{ duration: 0.3 }}
               className="md:hidden overflow-hidden"
             >
-              <div className="py-3 flex flex-col gap-1 border-t border-blue-200/60 mt-3">
+              <div className="py-3 flex flex-col gap-1 border-t border-[#F4B6BE]/60 mt-3">
                 {navItems.map((item) => (
                   <a
                     key={item}
@@ -60,8 +60,8 @@ const Nav = ({ isMenuOpen, setIsMenuOpen, activeSection }: NavProps) => {
                     onClick={() => setIsMenuOpen(false)}
                     className={`px-4 py-3 rounded-xl transition-all capitalize font-medium ${
                       activeSection === item
-                        ? 'text-blue-600 bg-blue-500/10'
-                        : 'text-slate-600 hover:text-slate-900 hover:bg-blue-50/80'
+                        ? 'text-[#EE9CA7] bg-[#FFDDE1]/60'
+                        : 'text-slate-600 hover:text-slate-900 hover:bg-[#FFDDE1]/45'
                     }`}
                   >
                     {item}

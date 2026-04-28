@@ -10,8 +10,7 @@ import Footer from './components/sections/Footer';
 
 const phrases = [
   'AI Engineering Undergraduate',
-  'HCI & Learning Research',
-  'Research Intern',
+  'UI Designer',
   'Full Stack Developer',
 ];
 
@@ -91,7 +90,7 @@ const App = () => {
       <div className="noise-overlay" />
 
       <motion.div
-        className="fixed top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-blue-700 via-sky-500 to-cyan-400 z-[60] origin-left"
+        className="fixed top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#E17A93] via-[#EE9CA7] to-[#F4B6BE] z-[60] origin-left"
         style={{ scaleX: scrollYProgress }}
       />
 

@@ -11,9 +11,9 @@ const LanguageBar = ({ lang, level, pct }: { lang: string; level: string; pct: n
         <span className="font-medium text-slate-800">{lang}</span>
         <span className="text-slate-500 text-[10px] sm:text-xs">{level}</span>
       </div>
-      <div className="h-1 sm:h-1.5 bg-blue-100/80 rounded-full overflow-hidden">
+      <div className="h-1 sm:h-1.5 bg-[#FBD0D5]/80 rounded-full overflow-hidden">
         <motion.div
-          className="h-full bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full"
+          className="h-full bg-gradient-to-r from-[#EE9CA7] to-[#F4B6BE] rounded-full"
           initial={{ width: 0 }}
           animate={isInView ? { width: `${pct}%` } : {}}
           transition={{ duration: 1.2, delay: 0.2, ease: [0.25, 0.46, 0.45, 0.94] }}

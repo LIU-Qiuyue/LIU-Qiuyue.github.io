@@ -25,7 +25,7 @@ const Experience = () => {
                   <div className={`absolute top-0 left-0 w-1 h-full bg-gradient-to-b ${exp.color} opacity-0 group-hover:opacity-100 transition-opacity duration-300`} />
                     <div className="flex flex-col gap-1 mb-2">
                       <div className="flex items-start justify-between gap-2">
-                        <h3 className="text-base sm:text-lg md:text-xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors leading-snug flex-1 min-w-0">{exp.title}</h3>
+                        <h3 className="text-base sm:text-lg md:text-xl font-bold text-slate-900 group-hover:text-[#EE9CA7] transition-colors leading-snug flex-1 min-w-0">{exp.title}</h3>
                         <motion.div
                           animate={{ rotate: expandedExp === i ? 180 : 0 }}
                           transition={{ duration: 0.3 }}
@@ -38,7 +38,7 @@ const Experience = () => {
                         {exp.icon && (
                           <span
                             className={`flex-shrink-0 inline-flex items-center justify-center
-                              [&_svg]:h-5 [&_svg]:w-5 [&_svg]:shrink-0 [&_svg]:text-blue-600
+                              [&_svg]:h-5 [&_svg]:w-5 [&_svg]:shrink-0 [&_svg]:text-[#EE9CA7]
                               [&_img]:h-7 [&_img]:w-7 [&_img]:shrink-0 [&_img]:rounded [&_img]:object-contain`}
                             aria-hidden
                           >

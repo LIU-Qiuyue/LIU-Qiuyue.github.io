@@ -16,14 +16,14 @@ const Hero = ({ typedText }: HeroProps) => {
       className="relative flex flex-col items-center px-4 sm:px-6 overflow-hidden pt-20 sm:pt-24 pb-20 sm:pb-24"
     >
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/4 -left-20 sm:-left-32 w-64 sm:w-96 h-64 sm:h-96 bg-blue-500/15 rounded-full blur-3xl animate-blob" />
-        <div className="absolute bottom-1/4 -right-20 sm:-right-32 w-64 sm:w-96 h-64 sm:h-96 bg-sky-400/15 rounded-full blur-3xl animate-blob" style={{ animationDelay: '2s' }} />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] sm:w-[600px] h-[300px] sm:h-[600px] bg-cyan-400/10 rounded-full blur-3xl animate-pulse-glow" />
+        <div className="absolute top-1/4 -left-20 sm:-left-32 w-64 sm:w-96 h-64 sm:h-96 bg-[#E17A93]/12 rounded-full blur-3xl animate-blob" />
+        <div className="absolute bottom-1/4 -right-20 sm:-right-32 w-64 sm:w-96 h-64 sm:h-96 bg-[#EE9CA7]/12 rounded-full blur-3xl animate-blob" style={{ animationDelay: '2s' }} />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] sm:w-[600px] h-[300px] sm:h-[600px] bg-[#F8C3C9]/10 rounded-full blur-3xl animate-pulse-glow" />
       </div>
 
       <div className="absolute inset-0 overflow-hidden pointer-events-none hidden sm:block">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] md:w-[700px] h-[500px] md:h-[700px] border border-blue-300/25 rounded-full animate-spin-slow" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] md:w-[550px] h-[400px] md:h-[550px] border border-blue-300/20 rounded-full animate-spin-slow" style={{ animationDirection: 'reverse', animationDuration: '30s' }} />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] md:w-[700px] h-[500px] md:h-[700px] border border-[#F4B6BE]/35 rounded-full animate-spin-slow" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] md:w-[550px] h-[400px] md:h-[550px] border border-[#F4B6BE]/25 rounded-full animate-spin-slow" style={{ animationDirection: 'reverse', animationDuration: '30s' }} />
       </div>
 
       <div className="max-w-5xl mx-auto relative z-10 text-center w-full">
@@ -33,12 +33,12 @@ const Hero = ({ typedText }: HeroProps) => {
           transition={{ type: 'spring', stiffness: 100, damping: 15, delay: 0.2 }}
           className="relative mx-auto mb-6 sm:mb-10 w-28 h-28 sm:w-36 sm:h-36"
         >
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-cyan-400 rounded-full blur-xl opacity-40 animate-pulse-glow" />
-          <div className="absolute -inset-[3px] bg-gradient-to-br from-blue-600 via-sky-500 to-cyan-400 rounded-full" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#E17A93] to-[#F1A9B2] rounded-full blur-xl opacity-40 animate-pulse-glow" />
+          <div className="absolute -inset-[3px] bg-gradient-to-br from-[#E17A93] via-[#EE9CA7] to-[#F4B6BE] rounded-full" />
           <img
             src="/profile.jpg"
-            alt="Wenxiang TAO"
-            className="w-full h-full rounded-full object-cover relative z-10 border-[3px] border-[#f0f7ff]"
+            alt="Qiuyue LIU"
+            className="w-full h-full rounded-full object-cover relative z-10 border-[3px] border-[#FFDDE1]"
           />
         </motion.div>
 
@@ -48,9 +48,9 @@ const Hero = ({ typedText }: HeroProps) => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-4 sm:mb-6"
         >
-          <span className="text-slate-900">Wenxiang</span>
+          <span className="text-slate-900">Qiuyue</span>
           <br />
-          <span className="gradient-text">TAO</span>
+          <span className="gradient-text">LIU</span>
         </motion.h1>
 
         <motion.div
@@ -60,7 +60,7 @@ const Hero = ({ typedText }: HeroProps) => {
           className="text-lg sm:text-xl md:text-2xl text-slate-600 mb-6 sm:mb-8 font-light min-h-[1.75rem] sm:min-h-[2rem]"
         >
           <span>{typedText}</span>
-          <span className="typing-cursor text-blue-600">|</span>
+          <span className="typing-cursor text-[#E17A93]">|</span>
         </motion.div>
 
         <motion.p
@@ -70,9 +70,9 @@ const Hero = ({ typedText }: HeroProps) => {
           className="text-slate-600 max-w-2xl mx-auto mb-5 sm:mb-6 leading-relaxed text-base sm:text-lg px-2"
         >
           AI Engineering undergraduate and research interested in designing{' '}
-          <span className="text-blue-700 font-medium">AI-enabled HCI systems</span>, especially in{' '}
-          <span className="text-sky-600 font-medium">educational settings</span> and student learning-life contexts.
-          Currently at <span className="text-cyan-600 font-medium">HKUST-GZ</span>.
+          <span className="text-[#E17A93] font-medium">AI-enabled HCI systems</span>, especially in{' '}
+          <span className="text-[#EE9CA7] font-medium">educational settings</span> and student learning-life contexts.
+          Currently at <span className="text-[#F1A9B2] font-medium">HKUST-GZ</span>.
         </motion.p>
 
         <motion.div

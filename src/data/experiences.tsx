@@ -44,7 +44,7 @@ export const Link = ({
     href={href}
     target="_blank"
     rel="noopener noreferrer"
-    className={`font-medium text-blue-600 hover:text-blue-700 hover:underline transition-colors ${showIcon ? 'inline-flex items-center gap-0.5' : 'inline'}`}
+    className={`font-medium text-[#EE9CA7] hover:text-[#EE9CA7]/90 hover:underline transition-colors ${showIcon ? 'inline-flex items-center gap-0.5' : 'inline'}`}
     onClick={(e) => e.stopPropagation()}
   >
     {children}
@@ -63,25 +63,23 @@ export const B = ({ children }: { children: ReactNode }) => (
 
 export const experiences: Experience[] = [
   {
-    title: 'Undergraduate Researcher',
-    company: 'Research Group of Prof. Mingming Fan, HKUST-GZ',
-    period: '2026.02 - Present',
+    title: 'Core Organizer & Platform Builder',
+    company: 'uniKorn Duxue Hub',
+    period: '2026.03 - Present',
     icon: (
       <img
-        src="/logos/HKUST(GZ).svg"
+        src="/logos/DuxueHub.svg"
         alt=""
       />
     ),
-    tags: ['HCI', 'LLM', 'Education'],
+    tags: ['Miniapp', 'UI design', 'Frontend Development'],
     points: [
-      <>Conducting undergraduate research on <B>human-AI interaction</B>, <B>LLM-based systems</B>, and <B>intelligent user interfaces design</B> under the supervision of <Link href="https://www.mingmingfan.com" showIcon={true}>Prof. Mingming Fan</Link>.</>,
-      <>Working on multiple ongoing projects spanning <B>interactive ambiguity resolution</B>, <B>LLM-supported intention alignment</B>, and <B>AI-assisted learning systems design</B>.</>,
-      <>Contributing to problem formulation, prompt and agent workflow development, and evaluation design across research prototypes.</>,
+      <></>,
     ],
-    color: 'from-sky-500 to-cyan-500',
+    color: 'from-[#F8C3C9] to-[#EE9CA7]',
   },
   {
-    title: 'Founding President',
+    title: 'Core Organizer',
     company: 'Web Development Enthusiasts Society, HKUST-GZ',
     period: '2026.01 - Present',
     icon: (
@@ -96,43 +94,7 @@ export const experiences: Experience[] = [
       <>Organized regular learning sessions and peer exchange activities on <B>web development</B>, <B>product building</B>, and <B>technical collaboration</B>.</>,
       <>Initiated the inaugural <B>Almost Million Web Contest (AMWC)</B> as a flagship student web development event.</>,
     ],
-    color: 'from-teal-500 to-blue-600',
-  },
-  {
-    title: 'Undergraduate Researcher',
-    company: 'Data Science and Analytics Thrust, HKUST-GZ',
-    period: '2026.01 - Present',
-    icon: (
-      <img
-        src="/logos/HKUST(GZ).svg"
-        alt=""
-      />
-    ),
-    tags: ['NLP', 'LLM', 'HCI', 'NL2SQL'],
-    points: [
-      <>Explored <B>interactive ambiguity resolution for Text-to-SQL</B>, transforming user interaction from low-level SQL editing into high-level semantic clarification.</>,
-      <>Built a <B>taxonomy-guided two-agent pipeline</B> to generate clarification questions from database schemas and natural language queries, and to align them with gold SQL for offline evaluation on BIRD.</>,
-      <>Investigated how <B>candidate worlds</B>, <B>ambiguity taxonomy</B>, and <B>expected information gain</B> can be combined to identify executable semantic ambiguities and reduce unnecessary user interactions.</>,
-    ],
-    color: 'from-blue-500 to-sky-500',
-  },
-  {
-    title: 'Undergraduate Researcher',
-    company: 'Artificial Intelligence Thrust, HKUST-GZ',
-    period: '2025.06 - 2025.12',
-    icon: (
-      <img
-        src="/logos/HKUST(GZ).svg"
-        alt=""
-      />
-    ),
-    tags: ['NLP', 'Speech', 'LLM'],
-    points: [
-      "Explored how accents are influenced by both a speaker's first language and their surrounding language environment.",
-      <>Built an <B>LLM-assisted toolkit</B> to automatically discover and collect YouTube audio likely to contain mixed-accent speech.</>,
-      'Designed a data cleaning and preprocessing pipeline, resulting in a speech dataset with over 1,000 hours of audio.',
-    ],
-    color: 'from-indigo-500 to-blue-500',
+    color: 'from-[#F1A9B2] to-[#F4B6BE]',
   },
   {
     title: 'Core Organizer & Platform Builder',
@@ -152,6 +114,6 @@ export const experiences: Experience[] = [
       <>Grew the platform to <B>500+ registered users</B> (to date).</>,
       <>Visit our website <Link href="https://unikorn.axfff.com">https://unikorn.axfff.com</Link>.</>,
     ],
-    color: 'from-cyan-600 to-blue-700',
+    color: 'from-[#F8C3C9] to-[#EE9CA7]',
   },
 ];

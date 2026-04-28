@@ -1,4 +1,4 @@
-# Wenxiang TAO — Portfolio Website
+# Qiuyue LIU — Portfolio Website
 
 A modern, responsive portfolio website showcasing education, experience, projects, and skills. Built with React, TypeScript, and Tailwind CSS.
 
@@ -12,7 +12,7 @@ A modern, responsive portfolio website showcasing education, experience, project
 
 ## 🚀 Live Demo
 
-Visit the live website: [https://taowenxiang.github.io/](https://taowenxiang.github.io/)
+Visit the live website: [https://LIU-Qiuyue.github.io/](https://LIU-Qiuyue.github.io/)
 
 ## 🛠️ Tech Stack
 
@@ -28,8 +28,8 @@ Visit the live website: [https://taowenxiang.github.io/](https://taowenxiang.git
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/taowenxiang/taowenxiang.github.io.git
-cd taowenxiang.github.io
+git clone https://github.com/LIU-Qiuyue/LIU-Qiuyue.github.io.git
+cd LIU-Qiuyue.github.io
 ```
 
 2. Install dependencies:
@@ -67,7 +67,7 @@ This repository is configured with GitHub Actions for automatic deployment. Simp
    - Select "GitHub Actions" as the source
 4. Push changes to the `main` branch
 
-The site will automatically deploy to `https://taowenxiang.github.io/`
+The site will automatically deploy to `https://LIU-Qiuyue.github.io/`
 
 ### Manual Deployment
 
