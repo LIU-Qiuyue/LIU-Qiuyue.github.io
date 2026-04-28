@@ -26,12 +26,12 @@ const Contact = () => {
             Let's <span className="gradient-text">Connect</span>
           </h2>
           <p className="text-slate-600 text-base sm:text-lg mb-8 sm:mb-12 leading-relaxed px-2">
-          I’m always excited to connect with people working in AI and HCI. I’m currently open to internship opportunities, undergraduate visiting programs, and research collaborations. If you’re interested in human-AI interaction, intelligent systems, or AI for learning, I’d love to hear from you.
+          I’m always excited to connect with people working in AI. I’m currently open to internship opportunities, undergraduate visiting programs, and research collaborations. If you’re interested in human-AI interaction, intelligent systems, or AI for learning, I’d love to hear from you.
           </p>
 
           <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4 mb-8 sm:mb-12 px-2 sm:px-0">
             <motion.a
-              href="mailto:wtao565connect@gmail.com"
+              href="mailto:2928780288@qq.com"
               whileHover={{ y: -4 }}
               whileTap={{ scale: 0.97 }}
               className="magnetic-btn flex items-center justify-center gap-2 px-4 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all text-sm sm:text-base bg-gradient-to-r from-[#E17A93] via-[#EE9CA7] to-[#F1A9B2] text-white hover:shadow-lg hover:shadow-[#E17A93]/30"
@@ -40,7 +40,7 @@ const Contact = () => {
               Email Me
             </motion.a>
             <motion.a
-              href="https://www.linkedin.com/in/wenxiang-tao-0356b5402/"
+              href="https://www.linkedin.com/in/liu-qiuyue/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ y: -4 }}
@@ -51,7 +51,7 @@ const Contact = () => {
               LinkedIn
             </motion.a>
             <motion.a
-              href="https://github.com/taowenxiang"
+              href="https://github.com/LIU-Qiuyue"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ y: -4 }}
