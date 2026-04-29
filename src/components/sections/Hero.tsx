@@ -69,8 +69,8 @@ const Hero = ({ typedText }: HeroProps) => {
           transition={{ delay: 1, duration: 0.6 }}
           className="text-slate-600 max-w-2xl mx-auto mb-5 sm:mb-6 leading-relaxed text-base sm:text-lg px-2"
         >
-          AI Engineering undergraduate and research interested in designing{' '}
-          <span className="text-[#E17A93] font-medium">AI-enabled HCI systems</span>, especially in{' '}
+          AI Engineering undergraduate and research interested in{' '}
+          <span className="text-[#E17A93] font-medium">product design and optimization</span>, especially in{' '}
           <span className="text-[#EE9CA7] font-medium">educational settings</span> and student learning-life contexts.
           Currently at <span className="text-[#F1A9B2] font-medium">HKUST-GZ</span>.
         </motion.p>
