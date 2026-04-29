@@ -96,7 +96,7 @@ export const experiences: Experience[] = [
     points: [
       <>Served as a <B>founding core member</B>, helping run day-to-day operations, coordinate teams, and organize community events.</>,
       <>Organized regular learning sessions and peer exchange activities on <B>web development</B>, <B>product building</B>, and <B>technical collaboration</B>.</>,
-      <>Initiated the inaugural <B>Almost Million Web Contest (AMWC)</B> as a flagship student web development event.</>,
+      <>Co-organized the inaugural <B>Almost Million Web Contest (AMWC)</B> as a flagship student web development event.</>,
     ],
     color: 'from-[#F1A9B2] to-[#F4B6BE]',
   },
