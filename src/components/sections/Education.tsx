@@ -29,11 +29,11 @@ const Education = () => {
             <div className="mt-5 pt-5 border-t border-[#FBD0D5]/70">
               <h4 className="text-sm font-semibold text-slate-800 mb-3">Selected Honors & Awards</h4>
               <ul className="space-y-2.5 text-sm text-slate-600 leading-snug list-disc pl-5 marker:text-[#EE9CA7]/80">
+                <li>Bronze Award, The 2025 CCPC Women's Division, 2025</li>
                 <li>Bronze Award, The 2025 ICPC Asia Xi'an Regional Contest, 2025</li>
+                <li>Second Prize, Lanqiao Cup National Software and Information Technology Professional Talent Competition, 2025</li>
                 <li>Silver Award, The 1st HKUST(GZ) Programming Contest, 2025</li>
-                <li>
-                  Second Prize, HKUST (GZ) Visitor System Development Competition, 2024
-                </li>
+                <li>Second Prize, HKUST (GZ) Visitor System Development Competition, 2024</li>
               </ul>
             </div>
           </div>
